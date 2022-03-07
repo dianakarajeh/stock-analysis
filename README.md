@@ -15,5 +15,14 @@ Perform a refactor of a specific VBA code to collect specific stock information 
 <img width="338" alt="Screen Shot 2022-03-06 at 5 24 08 PM" src="https://user-images.githubusercontent.com/99656224/156947986-213d9a90-21cd-4579-bd3c-0d49fc3160d2.png">
 
 #### As observed from both figures above, 2017 and 2018 both had extremely different return years than DAQO had.
-### Before Refactoring
-#### Before refactoring, the original script displayed an execution time of 
+### Before and After Refactoring
+#### Before refactoring, the original script displayed different execution times for both years.
+<img width="256" alt="Original script 2017" src="https://user-images.githubusercontent.com/99656224/156948476-df50b96d-27fa-4771-9fd3-9df484473044.png">
+<img width="256" alt="Original Script 2018" src="https://user-images.githubusercontent.com/99656224/156948480-e59dd1c3-b70b-4e21-b359-73e0c9a62771.png">
+
+#### Although these execution times seem great, they improve after refactoring of the original script is done. 
+### Summary
+### Pros and Cons of Refactoring Code
+#### The pros of refactoring code are that it simply makes everything much more organzied and neat.  As seen above with the difference between execution times, refactoring allows for faster programming to occur as well as an improvement in readability.  Readability becomes very important when customers such as Steve's parents have no prior experience with analyzing stocks. A con of refactoring code is that it could get confusing and difficult if the correct methods are not used.  
+### Pros and Cons of Refactoring Original VBA Script?
+#### The most important thing that was gained by refactoring the original VBA Script was much faster macro run time.  In order to analyze the data most efficiently, run time is very important.  The original run times were around ~3.04 seconds for both years while the refactored run times were around ~0.08 seconds for both years.
